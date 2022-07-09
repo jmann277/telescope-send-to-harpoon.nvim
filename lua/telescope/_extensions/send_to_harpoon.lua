@@ -35,8 +35,6 @@ local send_selected_to_harpoon = function(prompt_bufnr)
             harpoon_mark.add_file(filename)
         end
     end
-
-    actions.close(prompt_bufnr)
 end
 
 return telescope.register_extension({
